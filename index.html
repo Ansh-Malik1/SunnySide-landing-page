@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sunnyside landing page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="wrapper">
+    <nav class="navBar">
+      <div class="overlay"></div>
+      <div class="navContainer" style="position: relative;">
+        <div><h1>sunnyside</h1></div>
+        <div>
+          <img src="./images/icon-hamburger.svg" alt="" class="hamburger">
+        </div>
+        <div class="Mobile">
+          <ul class="listContainerM ">
+           <li class="listItemsM">About</li>
+           <li class="listItemsM">Services</li>
+           <li class="listItemsM">Projects</li>
+           <li class="listItemsM">Contact</li>
+          </ul>
+        </div>
+        <ul class="listContainer">
+          <li class="listItems">About</li>
+          <li class="listItems">Services</li>
+          <li class="listItems">Projects</li>
+          <li class="listItems">Contact</li>
+        </ul>
+      </div>
+    </nav>
+    <div class="menu"></div>
+    <section class="headerContainer">
+      <div class="headingContainer">
+        <h1 class="heading">We are Creatives</h1>
+        <img src="./images/icon-arrow-down.svg" alt="" class="arrow">
+      </div>
+    </section>
+    <section class="transformContainer">
+      <div class="trans">
+        <picture class="img">
+          <source media="min-width:950px" srcset="./images/desktop/image-transform.jpg">
+          <img src="./images/mobile/image-transform.jpg" alt="">
+        </picture>
+        <div class="innerTransform">
+          <h2 class="innerHeadings"> Transform your brand</h2>
+          <p class="text">
+            We are a full-service creative agency specializing in helping brands grow fast. 
+            Engage your clients through compelling visuals that do most of the marketing for you.
+          </p>
+          <div class="learn">
+            <p>Learn More</p>
+            <div class="underline"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+      
+    <!-------------------------------------------------------------->
+    <section class="transformContainer">
+      <div class="trans stand">
+        <picture class="img">
+          <source media="min-width:950px" srcset="./images/desktop/image-stand-out.jpg">
+          <img src="./images/mobile/image-stand-out.jpg" alt="" >
+        </picture>
+          <div class="innerTransform">
+            <h2 class="innerHeadings"> Stand out to the right audience</h2>
+            <p class="text">
+              Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+            </p>
+            <div class="learn">
+              <p>Learn More</p>
+              <div class="underline red"></div>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section class="projects">
+      <div>
+        <div class="graphic">
+          <h2 >Graphic Design</h2>
+          <p class="projectText">Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+      </div>
+      <div>
+        <div class="photography">
+          <h2>Photography</h2>
+          <p class="projectText">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <h2>Client Testimonials</h2>
+      <div class="cardContainer">
+        <div class="card">
+          <img src="./images/image-emily.jpg" alt="">
+          <p class="testiText">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <h3 class="name">Emily R.</h3>
+          <p class="designation">Marketing Director</p>
+        </div>
+        <div class="card">
+          <img src="./images/image-thomas.jpg" alt="">
+          <p class="testiText">Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <h3 class="name">Thomas S.</h3>
+          <p class="designation">Chief Operating Officer</p>
+        </div>
+        <div class="card">
+          <img src="./images/image-jennie.jpg" alt="">
+          <p class="testiText">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <h3 class="name">Jennie F.</h3>
+          <p class="designation">Business Owner</p>
+        </div>
+      </div>
+    </section>
+    <section class="images">
+      <picture>
+        <source media="(min-width: 900px )" srcset="./images/desktop/image-gallery-milkbottles.jpg">
+        <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
+      </picture>
+      <picture>
+        <source media="(min-width: 960px )" srcset="./images/desktop/image-gallery-orange.jpg">
+        <img src="./images/mobile/image-gallery-orange.jpg" alt="">
+      </picture>
+      <picture>
+        <source media="(min-width: 960px )" srcset="./images/desktop/image-gallery-cone.jpg">
+        <img src="./images/mobile/image-gallery-cone.jpg" alt="">
+      </picture>
+      <picture>
+        <source media="(min-width: 960px )" srcset="./images/desktop/image-gallery-sugarcubes.jpg">
+        <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="">
+      </picture>
+    </section>
+    <footer>
+      <h1>sunnyside</h1>
+      <ul class="textSection">
+        <li>About</li>
+        <li>Services</li>
+        <li>Projects</li>
+      </ul>
+      <ul class="media">
+        <img src="./images/icon-facebook.svg" alt="">
+        <img src="./images/icon-instagram.svg" alt="">
+        <img src="./images/icon-twitter.svg" alt="">
+        <img src="./images/icon-pinterest.svg" alt="">
+      </ul>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
