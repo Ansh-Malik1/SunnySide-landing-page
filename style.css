@@ -108,6 +108,7 @@ select {
     z-index: 100;
     background-color: rgba(121, 115, 115, 0.618);
     display: none;
+    overflow: hidden;
 }
 .listContainerM{
     list-style: none;
