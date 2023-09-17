@@ -8,7 +8,7 @@ button.addEventListener("click" , ()=>{
     if(cont.classList.contains("activeMob")){
         setTimeout(()=>{
             cont.style.cssText = "opacity : 100%"
-            wrapper.style.cssText="overflow-y: hidden"
+            document.body.style.cssText="overflow-y: hidden"
         },200)
     }
 })
@@ -16,6 +16,6 @@ button.addEventListener("click" , ()=>{
 overlay.addEventListener("click" , ()=>{
     cont.classList.toggle("activeMob")
     overlay.classList.toggle("activeMob")
-    wrapper.style.cssText="overflow-y: auto"
+    document.body.style.cssText="overflow-y: auto"
 
 })
